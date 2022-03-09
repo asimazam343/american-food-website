@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section 1 header */
+header .container-fluid{
+    background-image: url('./Images/yellow-bg-header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+
+#headerleft{
+    border: 2px solid red;
+}
+
+.nav{
+   
+   margin-left: 12rem;
+   padding: 1rem;
+   background-color: rgba(248, 248, 248,0.6);
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.logo{
+    margin-top: 10rem;
+}
+
+
+
+.nav ul{
+    list-style: none;
+    
+}
+.nav ul li{
+    margin-right: 3rem;
+}
+.nav ul li a:hover{
+   color: red;
+   transition: all 0.7s ease;
+  
+}
+
+
+
+.nav ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+/* section 2 */
+#pupolarburger1{
+    padding: 10rem;
+   
+}
+
+#section2-right .card{
+    margin-top: 1.5rem;
+}
+
+input{
+    border: none;
+    border-bottom: 2px solid rgb(190, 189, 189);
+}
+
+form{
+    position:absolute
+}
+
+.burger-drink{
+    margin-top: 12rem;
+}
